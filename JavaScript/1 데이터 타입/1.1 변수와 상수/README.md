@@ -53,3 +53,5 @@ const 역시 상수 여러 개를 선언할 수 있다.
 ```javascript
 const MIN_TEMP = 0, MAX_TEMP = 30;
 ```
+
+​    
