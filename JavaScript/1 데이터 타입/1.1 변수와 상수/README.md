@@ -1,10 +1,10 @@
-### 1.1 변수와 상수
+## 1.1 변수와 상수
 
 변수(Variable)이란 이름이 붙은 값으로, 변수라는 이름에 맞게 값은 언제든지 바뀔 수 있다.
 
 예를 들어 온도를 다루는 프로그램을 만든다면 currentC라는 변수를 사용할 수 있다.
 
-###### ex1)
+#### ex1)
 
 ```javascript
 let currentC = 26;
@@ -19,7 +19,7 @@ let은 변수 선언에만 쓰이며, 각 변수이름은 한 번만 선언 할 
 
 변수를 선언할 때 반드시 초기값을 지정해야 하는 건 아니다. 초기값을 지정하지 않으면 undefined가 할당된다.
 
-###### ex2)
+#### ex2)
 
 ```javascript
 let temp;
@@ -30,7 +30,7 @@ let temp;
 
 let 문 하나에서 변수 여러 개를 선언할 수 있다.
 
-###### ex3)
+#### ex3)
 
 ```javascript
 let temp, room1 = "suite_room", room2 = "lobby";
@@ -46,7 +46,7 @@ room1과 room2는 문자열 변수이다.
 
 const 역시 상수 여러 개를 선언할 수 있다.
 
-###### ex4)
+#### ex4)
 
 ```javascript
 const MIN_TEMP = 0, MAX_TEMP = 30;
